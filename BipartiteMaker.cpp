@@ -48,7 +48,7 @@ interval = atof(tokens[4].c_str());
 
  if(flag == 1)
  {
- fprintf(out,"%s,%s\n",userId.c_str(),newsId.c_str());
+ fprintf(out,"%s,%s,1\n",newsId.c_str(),userId.c_str());
  }
 
 }
